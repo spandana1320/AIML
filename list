@@ -1,0 +1,145 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMG5ceOyr8U+IJLOJiJAzGp",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/spandana1320/AIML/blob/main/list\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zPJPEAC8jL0V",
+        "outputId": "a60087a0-0c2b-4bc5-b1e0-e88541be5f23"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "11\n"
+          ]
+        }
+      ],
+      "source": [
+        "a=5\n",
+        "b=6\n",
+        "s=5+6\n",
+        "print(s)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "numbers = [1, 2, 3, 4, 5]\n",
+        "\n",
+        "\n",
+        "print(\"Original list:\", numbers)\n",
+        "\n",
+        "# Append a new element to the list\n",
+        "numbers.append(6)\n",
+        "print(\"After appending 6:\", numbers)\n",
+        "\n",
+        "# Insert an element at a specific position\n",
+        "numbers.insert(2, 10)\n",
+        "print(\"After inserting 10 at index 2:\", numbers)\n",
+        "\n",
+        "# Remove an element from the list\n",
+        "numbers.remove(4)\n",
+        "print(\"After removing 4:\", numbers)\n",
+        "\n",
+        "# Pop an element from the list\n",
+        "popped_element = numbers.pop()\n",
+        "print(\"After popping an element:\", numbers)\n",
+        "print(\"Popped element:\", popped_element)\n",
+        "\n",
+        "# Sort the list\n",
+        "numbers.sort()\n",
+        "print(\"After sorting:\", numbers)\n",
+        "\n",
+        "# Reverse the list\n",
+        "numbers.reverse()\n",
+        "print(\"After reversing:\", numbers)\n",
+        "\n",
+        "# Get the length of the list\n",
+        "length = len(numbers)\n",
+        "print(\"Length of the list:\", length)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UKWFDNW4jpSQ",
+        "outputId": "b0e6a865-01a9-43ce-9c1c-b40155a314b9"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Original list: [1, 2, 3, 4, 5]\n",
+            "After appending 6: [1, 2, 3, 4, 5, 6]\n",
+            "After inserting 10 at index 2: [1, 2, 10, 3, 4, 5, 6]\n",
+            "After removing 4: [1, 2, 10, 3, 5, 6]\n",
+            "After popping an element: [1, 2, 10, 3, 5]\n",
+            "Popped element: 6\n",
+            "After sorting: [1, 2, 3, 5, 10]\n",
+            "After reversing: [10, 5, 3, 2, 1]\n",
+            "Length of the list: 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n=[1,2,3,4]\n",
+        "n.append(6)\n",
+        "print(\"after appending 6:\",n)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "g0Smdp0CleWX",
+        "outputId": "a2362c7b-8db6-4f13-e919-d181bf4184d0"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "after appending 6: [1, 2, 3, 4, 6]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
